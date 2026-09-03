@@ -1,3 +1,16 @@
+1.1.0 (2026-09-02 23:30:39 -0500)
+---------------------------------
+
+- Expand git version parsing to be even more robust. `#207 <https://github.com/ros-infrastructure/rosdistro/pull/207>`_
+- Catch errors thrown by manifest providers. `#196 <https://github.com/ros-infrastructure/rosdistro/pull/196>`_
+- Retry load_url on connection errors, not just timeouts. `#205 <https://github.com/ros-infrastructure/rosdistro/pull/205>`_
+- Replace version assertion with custom FormatVersionError. `#206 <https://github.com/ros-infrastructure/rosdistro/pull/206>`_
+- Accept and write the current REP URLs in file headers. `#204 <https://github.com/ros-infrastructure/rosdistro/pull/204>`_
+- Drop distutils as it is deprecated. `#194 <https://github.com/ros-infrastructure/rosdistro/pull/194>`_
+- Don't get dependencies of non ROS packages in dependency_walker. `#171 <https://github.com/ros-infrastructure/rosdistro/pull/171>`_
+- Accept period in repo path regex. `#193 <https://github.com/ros-infrastructure/rosdistro/pull/193>`_
+- Add a GitLab manifest provider. `#163 <https://github.com/ros-infrastructure/rosdistro/pull/163>`_
+
 1.0.1 (2024-10-19 08:45:00 -0500)
 ---------------------------------
 
